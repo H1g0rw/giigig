@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recado para a gi</title>
+</head>
+<body>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+        .main{
+            text-align: center;
+            align-items: center;
+        }
+    </style>
+    <div class="main">
+    <h1>Clique aqui para receber seu texto</h1>
+    <input type="button" value="Ver texto" onclick="abrirTexto()">
+    <br><br><br>  
+    <div class="texto">
+
+    </div>
+
+    <script>
+        function abrirTexto(){
+           let txt = document.querySelector(`.texto`) 
+           txt.innerText = `Olha nao faço ideia de como falo isso pra voce e nem to com coragem pra mandar isso kkkk 
+            Eu sempre fui um menino de muitos "amigos" mas ultimamente nao tenho mais tantos acho que nao passa dos dedos de uma mao 
+            Cara minha vida tava uma mistura de calma com bagunça até o pereira me mostrar uma foto sua e perguntar oq eu achei de voce 
+            E de primeira eu nem sabia oque eu senti nao sabia oque queria e enfim e pode parecer que eu nao fui timido quando te encontrei na academia 
+            Mas o esforço que fiz pra fazer tudo q fiz por mais simples que foi eu nunca consegui fazer nada sem ser timido 
+            E eu estava pensando o quao boa voce esta sendo pra mim... eu quero dizer que voce me ajuda lidar com as coisas 
+            Voce me ajuda lidar com a minha mente q nela eu tenho q ser perfeito e nao errar em nada mas voce entende o meu lado e me ajuda 
+            Porra eu sou muito ruim com palavras e nem sei se deveria estar te falando isso mas foda-se
+            E eu quero te esperar e voce sabe oq eu digo pq a gente nao precisa estar colado pra estar junto ja diz o luan santana kkk
+            Eu quero te esperar pq voce é uma menina que tem os ideais bons trabalha pra conquistar as coisas e com tao pouco tempo te conhecendo voce esta me fazendo bem... 
+            E olha foda-se eu falo mesmo sou aluno do paulo muzy kkkkkkkk pode anotar ai voce ainda vai ser minha roberta 
+            Voce disse que estava com medo de eu nao gostar de voce quando eu visse voce kkkkkk foi ai que eu me perdi na sua beleza 
+            A combinaçao do jeito que voce me trata com o jeito que voce se preocupa cmg com a sua beleza me matou... 
+            E eu poderia passar o resto da noite escrevendo aqui mas isso eu faço outro dia...
+           `
+        }
+        
+    </script>
+    </div>
+</body>
+</html>
